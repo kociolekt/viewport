@@ -1,0 +1,28 @@
+{
+  "name": "viewport",
+  "version": "1.0.0",
+  "description": "Provides window width and height",
+  "main": "es5/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/babel-cli/bin/babel index.js -d es5/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kociolekt/viewport.git"
+  },
+  "keywords": [
+    "viewport",
+    "window"
+  ],
+  "author": "kociolekt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kociolekt/viewport/issues"
+  },
+  "homepage": "https://github.com/kociolekt/viewport#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.8"
+  }
+}
